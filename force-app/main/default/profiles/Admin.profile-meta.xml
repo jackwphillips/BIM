@@ -8,6 +8,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Company__c.Address__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Movie__c.Budget__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -57,6 +62,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Company__c-Company Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Movie__c-Movie Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -65,6 +73,15 @@
     <layoutAssignments>
         <layout>Review__c-Review Layout</layout>
     </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Company__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -92,6 +109,10 @@
         <object>Review__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabVisibilities>
+        <tab>Company__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Movie__c</tab>
         <visibility>DefaultOn</visibility>
