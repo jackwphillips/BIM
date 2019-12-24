@@ -6,6 +6,10 @@
         <visible>true</visible>
     </applicationVisibilities>
     <custom>true</custom>
+    <tabVisibilities>
+        <tab>Movie__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
