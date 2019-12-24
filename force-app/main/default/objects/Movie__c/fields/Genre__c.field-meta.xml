@@ -57,6 +57,11 @@
                 <label>Family</label>
             </value>
             <value>
+                <fullName>Fantasy</fullName>
+                <default>false</default>
+                <label>Fantasy</label>
+            </value>
+            <value>
                 <fullName>Film Noir</fullName>
                 <default>false</default>
                 <label>Film Noir</label>
