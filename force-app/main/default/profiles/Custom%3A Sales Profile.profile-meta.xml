@@ -6,6 +6,14 @@
         <visible>true</visible>
     </applicationVisibilities>
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Movie__c.Release_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Movie__c-Movie Layout</layout>
+    </layoutAssignments>
     <tabVisibilities>
         <tab>Movie__c</tab>
         <visibility>DefaultOn</visibility>
