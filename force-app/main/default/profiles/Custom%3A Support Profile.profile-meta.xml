@@ -28,6 +28,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Movie__c.Director__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Movie__c.Genre__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -61,6 +66,9 @@
         <field>Review__c.Rating__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Cast__c-Cast Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Company__c-Company Layout</layout>
     </layoutAssignments>
