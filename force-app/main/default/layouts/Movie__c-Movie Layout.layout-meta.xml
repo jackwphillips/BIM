@@ -29,7 +29,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Cover__c</field>
+                <field>Cover_URL__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Cover_Image__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

@@ -17,8 +17,13 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Movie__c.Cover_Image__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
-        <field>Movie__c.Cover__c</field>
+        <field>Movie__c.Cover_URL__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
